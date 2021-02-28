@@ -1,0 +1,77 @@
+
+
+
+
+body{
+    background: #EDD263;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+#nav-menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    
+}
+
+.menu-items{
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: 600;
+    
+}
+
+.logo{
+    margin-left: 135px;
+}
+#submit{
+    display: flex;
+    margin: 135px 430px;
+    position: absolute;
+    align-items: center;
+    
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+input{
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.btn-search{
+    padding: 15px;
+    width: 100px;
+    background: darkblue;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+#meal-info{
+    margin: 210px;
+    align-items: center;
+
+}
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    
+}
+
+.meal{
+    cursor: pointer;
+     
+}
+
+.meal img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
